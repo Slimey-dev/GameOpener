@@ -10,7 +10,8 @@ def on_quit():
 image = Image.open("icon.png")
 
 menu = (
-    item('Ready or Not', lambda: os.startfile("C:\Program Files (x86)\Steam\steamapps\common\Ready Or Not\ReadyOrNot.exe")),
+    # you can add more items for more games
+    item('Game of your choice', lambda: os.startfile("C:\Path\to\that\file\that_file.exe")),
     item('Quit', on_quit)
     )
 
