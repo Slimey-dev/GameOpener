@@ -1,5 +1,5 @@
 # GameOpener
-easy python game opening script
+easy python game opening script<br>
 Commands you need to use:
 ```
 python -m venv .venv
