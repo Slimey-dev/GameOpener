@@ -1,1 +1,1 @@
-cd "D:\Content\Create with code\GameOpener" & .\.venv\Scripts\activate & pythonw GameOpener.py
+cd "C:\Users\YOUR_USERNAME\FOLDER" & .\.venv\Scripts\activate & pythonw GameOpener.py
