@@ -1,5 +1,6 @@
 import pystray
 import os
+import sys
 from pystray import MenuItem as item
 from PIL import Image
 
@@ -8,10 +9,12 @@ def on_quit():
     icon.stop()
     
 image = Image.open("icon.png")
-
+#python3 -m venv .venv
+#source ./.venv/bin/activate
+#pip install pystray
 # path to that folder with your game shortcuts
-dir_path = r'D:\\Path\\To\\That\\Folder'
-
+current_dir = os.getcwd()
+dir_path = current_dir +'//GameFiles'
 #list with that stored files
 res = []
 
